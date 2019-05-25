@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pri's Friend Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+                <h1>Survey Questions</h1>
+                <hr>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="card">
+                    <div class="card-header">
+                      <h3><strong>Survey</strong></h3>
+                    </div>
+                    <div class="card-body">
+                      <form method="POST" role="form">
+          
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name">
+                        </div>
+          
+                        <div class="form-group">
+                          <label for="pic">Add a link to a profile picture</label>
+                          <input type="text" class="form-control" id="pic">
+                        </div>
+          
+                        <div class="form-group">
+                          <h1>Question 1</h1>
+                          <label for="Q1">You only knock on doors once.</label>
+                          <select class="form-control select" id="Q1" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+          
+                        <div class="form-group">
+                          <h1>Question 2</h1>
+                          <label for="Q2">You care deeply about people's feelings.</label>
+                          <select class="form-control select" id="Q2" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+          
+                        <div class="form-group">
+                          <h1>Question 3</h1>
+                          <label for="Q3">You consider yourself an example for future generations.</label>
+                          <select class="form-control select" id="Q3" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 4</h1>
+                          <label for="Q4">You would help a friend even if they sat on your spot.</label>
+                          <select class="form-control select" id="Q4" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 5</h1>
+                          <label for="Q5">You let other people manage the temperature in your apartment.</label>
+                          <select class="form-control select" id="Q5" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 6</h1>
+                          <label for="Q6">You enjoy a hot beverage during stressing times.</label>
+                          <select class="form-control select" id="Q6" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 7</h1>
+                          <label for="Q7">In a discussion, truth should be more important than people’s sensitivities.</label>
+                          <select class="form-control select" id="Q7" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 8</h1>
+                          <label for="Q8">You rarely get carried away by fantasies and ideas.</label>
+                          <select class="form-control select" id="Q8" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 9</h1>
+                          <label for="Q9">You hate Comicon.</label>
+                          <select class="form-control select" id="Q9" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <h1>Question 10</h1>
+                          <label for="Q10">You do not care for role playing games.</label>
+                          <select class="form-control select" id="Q10" data-style="btn-info">
+                            <option>1(Strongly Disagree)</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5(Strongly Agree)</option>
+                          </select>
+                        </div>
+                      </form>
+                      <br>
+                      <div class="text-right">
+                        <button type="button" class="btn btn-primary btn-md" id="add-btn"><span class="far fa-paper-plane"></span>
+                          Submit</button>
+                      </div>
+                    </div>
+                  </div>
+          
+                </div>
+              </div>
+          
+              <div class="modal" tabindex="-1" role="dialog" id="Mymodal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">You Found me!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                   
+          
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+</body>
+          
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+          <script type="text/javascript">
+            $("#add-btn").on("click", function (event) {
+              $('.modal-body').empty();
+              var newFriend = {
+                "name": $("#name").val().trim(),
+                "photo": $("#pic").val().trim(),
+                "scores": [
+                  parseInt($('#Q1').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q2').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q3').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q4').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q5').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q6').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q7').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q8').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q9').find('option:selected').text().charAt(0)),
+                  parseInt($('#Q10').find('option:selected').text().charAt(0))
+                ]
+              };
+              console.log(JSON.stringify(newFriend));
+              $.post("/api/friends", newFriend)
+                .then(function (data) {
+                  $.get(`/api/friends/match/${newFriend.name}`)
+                    .then(function (data) {
+                      console.log('get call', data);
+                      $("#Mymodal").modal("show");
+                      $('.modal-body').append(`<img src=${data.photo} width=300px height=300px><h3>${data.name}</h3></img>`);
+                    });
+                });
+            });
+          </script>
+          
+</html>
